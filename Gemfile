@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 #paperclip
 gem 'paperclip', '~> 4.2' 
+#imagemagik
+gem 'imagemagick-identify', '~> 0.0.1'
 #simple form
 gem 'simple_form'
 

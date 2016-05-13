@@ -12,6 +12,9 @@ class PostsController < ApplicationController
 		@post =Post.create(post_params)
 		if @post.save
 			redirect_to posts_path
+		else
+			flash[:alert] = "Upload Unsuccesful"
+      		render :new
 		end
 	end
 
