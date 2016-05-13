@@ -21,4 +21,7 @@ class PostsController < ApplicationController
 		params.require(:post).permit(:image, :caption)
 	end
 
+	def show
+
+	end
 end
