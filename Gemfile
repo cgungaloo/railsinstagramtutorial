@@ -28,6 +28,8 @@ gem 'paperclip', '~> 4.2'
 gem 'imagemagick-identify', '~> 0.0.1'
 #simple form
 gem 'simple_form'
+#bootstrap
+gem 'bootstrap-sass', '~> 3.3.6'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
